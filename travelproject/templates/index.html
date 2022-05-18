@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +28,11 @@
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
 						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
-							<div class="logo"><a href="index.html">GAME MANIA</a></div>
+							<div class="logo"><a href="#" style="color:white;">TRAVEL-XPERTZ</a></div>
 							<nav class="main_nav">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
-									<li><a href="index.html">Home</a></li>
-									<li class="active"><a href="about.html">About us</a></li>
+									<li><a href="#">Home</a></li>
+									<li class="active"><a href="#">About us</a></li>
 									{% if user.is_authenticated %}
 									<li>Hello {{user.username}}</li>
 									<li><a href="accounts/logout">Logout</a></li>
@@ -42,7 +43,7 @@
 
 								</ul>
 							</nav>
-							<div class="header_phone ml-auto">Call us: 00-56 445 678 33</div>
+							<div class="header_phone ml-auto">Call us: 91-81 36 96 47 12</div>
 
 							<!-- Hamburger -->
 
@@ -71,16 +72,16 @@
 
 	<div class="menu">
 		<div class="menu_header d-flex flex-row align-items-center justify-content-start">
-			<div class="menu_logo"><a href="index.html">GAME MANIA</a></div>
+			<div class="logo"><a href="#" style="color:white;">TRAVEL MANIA</a></div>
 			<div class="menu_close_container ml-auto"><div class="menu_close"><div></div><div></div></div></div>
 		</div>
 		<div class="menu_content">
 			<ul>
-				<li><a href="inex.html">Home</a></li>
-				<li><a href="about.html">About us</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
 				<li><a href="#">Services</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
 		<div class="menu_social">
@@ -99,7 +100,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="background_image" style="background-image:url({% static 'images/game.jpg' %})"></div>
+		<div class="background_image"  style="background-image:url({% static 'images/header3.jpg' %})"></div>
 	</div>
 
 	<!-- Search -->
@@ -109,14 +110,14 @@
 			<div class="row">
 				<div class="col">
 					<div class="home_search_container">
-						<div class="home_search_title">Search for your Games</div>
+						<div class="home_search_title">Search for your Places</div>
 						<div class="home_search_content">
 							<form action="#" class="home_search_form" id="home_search_form">
 								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
-									<input type="text" class="search_input search_input_1" placeholder="Arcade" required="required">
-									<input type="text" class="search_input search_input_2" placeholder="Adventure" required="required">
-									<input type="text" class="search_input search_input_3" placeholder="Racing" required="required">
-									<input type="text" class="search_input search_input_4" placeholder="Fighting" required="required">
+									<input type="text" class="search_input search_input_1" placeholder="Location" required="required">
+									<input type="text" class="search_input search_input_2" placeholder="Adventure Spots" required="required">
+									<input type="text" class="search_input search_input_1" placeholder="Beaches" required="required">
+									<input type="text" class="search_input search_input_2" placeholder="Resorts" required="required">
 									<button class="home_search_button">search</button>
 								</div>
 							</form>
@@ -133,32 +134,30 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="section_subtitle">Simply Amazing Games</div>
-					<div class="section_title"><h2>A few words about us</h2></div>
+					<div class="section_sub">Simply Amazing Places</div>
+					<div class="section_title"><h2 STYLE="font-family:'Oswald', sans-serif;">A FEW WORDS ABOUT US</h2></div>
 				</div>
 			</div>
 			<div class="row about_row">
 				<div class="col-lg-6">
 					<div class="about_content">
-						<div class="text_highlight" style="font-family:sans serif;">Part of mobile-phone gaming popularity is the ability to be taken anywhere. Once a game is downloaded onto a phone, it doesn't even need an Internet connection to run. The application runs through the phone's hard drive just like on a laptop computer. This means people can play mobile -hone games anywhere, at any time, even if they don't have Internet access or a phone signal. Best of all, most phone are small enough that games can be played in places where traditional games cannot, such as in a car or a waiting room.
+						<div class="text_highlight" style="font-family:cursive;">India is the birthplace of numerous cultures and religious making it one of the most important tourist destinations in the world. From the mountains in the Himalayas to the greenery of Kerala, from the beaches in Goa to the sacred Ganges, from the sleepy villages like Hampi to the sands of the Thar Desert. Ah, it’s so hard to choose! What are the best tourist places in India?
+
+The mix of traditional living and the modern world is incredibly fascinating. More than 20 official languages, multiple religions and a variety of cuisines exist within India’s borders. To truly experience the breadth of Indian culture and history, travel is key. Head to as many of these best places to visit in India’s as your itinerary allows.
+
+However, some places to visit in India remain perennially more popular than others. These are among the best destinations in India. India is a country that will never cease to amaze you with its extraordinary beauty.
 </div>
 						<div class="about_text">
-							<p>The Surprising Benefits of Mobile Gaming
-Mobile Gaming Improves Your Mood.
-Boost Your Brain Power.
-Mobile Gaming Brings People Together.
-They Help Kids with Autism.
-They Improve Dexterity.
-Mobile Gaming Improves Problem Solving.
-Improves Concentration.
-They Teach You Things.
+							<p>Benefits of travelling – It teaches you about the world
+
+“The world is a book, and those who do not travel read only a page.” – said Saint Augustine. Travelling can teach you more than any university course. You learn about the culture of the country you visit. If you talk to locals, you will likely learn about their thinking, habits, traditions and history as well.
 </p>
 						</div>
 						<div class="button about_button"><a href="#">read more</a></div>
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="about_image"><img src="{% static 'images/GAME2.jpg' %}" width="1000px;height:auto;" alt=""></div>
+					<div class="about_image"><img src="{% static 'images/travmid.jpg' %}"alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -175,7 +174,7 @@ They Teach You Things.
 					<div class="milestone text-center">
 						<div class="milestone_icon"><img src="{% static 'images/mountain.svg' %}" alt=""></div>
 						<div class="milestone_counter" data-end-value="17">0</div>
-						<div class="milestone_text">Online Courses</div>
+						<div class="milestone_text">Mountaineering</div>
 					</div>
 				</div>
 
@@ -184,7 +183,7 @@ They Teach You Things.
 					<div class="milestone text-center">
 						<div class="milestone_icon"><img src="{% static 'images/island.svg' %}" alt=""></div>
 						<div class="milestone_counter" data-end-value="213">0</div>
-						<div class="milestone_text">Students</div>
+						<div class="milestone_text">Adventure Spots</div>
 					</div>
 				</div>
 
@@ -192,8 +191,8 @@ They Teach You Things.
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone text-center">
 						<div class="milestone_icon"><img src="{% static 'images/camera.svg' %}" alt=""></div>
-						<div class="milestone_counter" data-end-value="11923">0</div>
-						<div class="milestone_text">Teachers</div>
+						<div class="milestone_counter" data-end-value="1194">0</div>
+						<div class="milestone_text">Photography Spots</div>
 					</div>
 				</div>
 
@@ -201,8 +200,8 @@ They Teach You Things.
 				<div class="col-lg-3 milestone_col">
 					<div class="milestone text-center">
 						<div class="milestone_icon"><img src="{% static 'images/boat.svg' %}" alt=""></div>
-						<div class="milestone_counter" data-end-value="15">0</div>
-						<div class="milestone_text">Countries</div>
+						<div class="milestone_counter" data-end-value="18789">0</div>
+						<div class="milestone_text">Current Travellers</div>
 					</div>
 				</div>
 
@@ -213,11 +212,11 @@ They Teach You Things.
 	<!-- Why Choose Us -->
 
 	<div class="why">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/why.jpg' %}" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/earth.jpg' %}" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="section_subtitle">simply amazing places</div>
+					<div class="section_sub"style="font-family:Verdana;">Simply Amazing Places</div>
 					<div class="section_title"><h2>Why choose us?</h2></div>
 				</div>
 			</div>
@@ -289,12 +288,12 @@ They Teach You Things.
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="section_subtitle">simply amazing places</div>
+
 					<div class="section_title"><h2>Meet the Team</h2></div>
 				</div>
 			</div>
 			<div class="row team_row">
-				
+
 				<!-- Team Item -->
 				{% for i in value %}
 				<div class="col-xl-3 col-md-6 team_col">
@@ -302,13 +301,15 @@ They Teach You Things.
 						<div class="team_image"><img src="{{i.timage.url}}" alt=""></div>
 						<div class="team_content">
 							<div class="team_title"><a href="#">{{i.tname}}</a></div>
-							<div class="team_text">
-								<p>{{i.tdesc}}</p>
+							<div class="team_text"style="color:white;">
+								<p style="color:white;">{{i.tdesc}}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				{% endfor %}
+					
+
 
 				<!-- Team Item -->
 <!--				<div class="col-xl-3 col-md-6 team_col">-->
@@ -356,14 +357,14 @@ They Teach You Things.
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/game3.jpg' %}" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/footercam.jpg' %}" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="newsletter">
 						<div class="newsletter_title_container text-center">
 							<div class="newsletter_title">Subscribe to our newsletter to get the latest trends & news</div>
-							<div class="newsletter_subtitle">Join our database NOW!</div>
+							<div class="newsletter_subtitle">Join our Database NOW!</div>
 						</div>
 						<div class="newsletter_form_container">
 							<form action="#" class="newsletter_form d-flex flex-md-row flex-column align-items-start justify-content-between" id="newsletter_form">
@@ -385,11 +386,11 @@ They Teach You Things.
 						<div class="col-xl-4 footer_contact_col">
 							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
 								<div class="footer_contact_icon"><img src="{% static 'images/sign.svg' %}" alt=""></div>
-								<div class="footer_contact_title">give us a call</div>
+								<div class="footer_contact_title">Give us a call</div>
 								<div class="footer_contact_list">
 									<ul>
-										<li>Office Landline: +44 5567 32 664 567</li>
-										<li>Mobile: +44 5567 89 3322 332</li>
+										<li style="font-family:verdana;">Office Landline: +91 8136964712</li>
+										<li style="font-family:verdana;">Mobile: +91 9567543997</li>
 									</ul>
 								</div>
 							</div>
@@ -402,7 +403,7 @@ They Teach You Things.
 								<div class="footer_contact_title">come & drop by</div>
 								<div class="footer_contact_list">
 									<ul style="max-width:190px">
-										<li>4124 Barnes Street, Sanford, FL 32771</li>
+										<li style="font-family:verdana;"> Quilon Kerala | India | PINCODE-691012</li>
 									</ul>
 								</div>
 							</div>
@@ -415,8 +416,8 @@ They Teach You Things.
 								<div class="footer_contact_title">send us a message</div>
 								<div class="footer_contact_list">
 									<ul>
-										<li>youremail@gmail.com</li>
-										<li>Office@yourbusinessname.com</li>
+										<li style="font-family:verdana;">suneeth143143@gmail.com</li>
+										<li style="font-family:verdana;">suneethtravelxpertz@hotmail.com</li>
 									</ul>
 								</div>
 							</div>
@@ -426,9 +427,6 @@ They Teach You Things.
 				</div>
 			</div>
 		</div>
-		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
 
 	</footer>
 </div>
